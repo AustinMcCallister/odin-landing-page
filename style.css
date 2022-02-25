@@ -33,10 +33,14 @@ ul {
   padding: 16px;
 }
 
+.header {
+  justify-content: space-around;
+}
+
 .header-text {
   font-size: 24px;
   font-weight: bold;
-  margin-left: 48px;
+  flex-shrink: 0;
 }
 
 .header-links ul {
@@ -46,7 +50,13 @@ ul {
   gap: 16px;
 }
 
+.header-links ul li {
+  flex-shrink: 0;
+}
+
 .footer {
   color: #E5E7EB;
+  font-size: 18px;
+  padding: 32px;
   justify-content: center;
 }
