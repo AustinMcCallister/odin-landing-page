@@ -35,6 +35,7 @@ ul {
 
 .header {
   justify-content: space-around;
+  gap: 16px;
 }
 
 .header-text {
@@ -51,7 +52,60 @@ ul {
 }
 
 .header-links ul li {
+  flex-shrink: 1;
+}
+
+.eyecatch-container {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  gap: 48px;
+}
+
+.eyecatch-text-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 240px;
+  width: 450px;
+  padding: 4px;
+  gap: 8px;
+}
+
+.eyecatch-header {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.eyecatch-text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.eyecatch-image {
+  color: #E5E7EB;
+  background-color: grey;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
+  height: 240px;
+  width: 500px;
+}
+
+.eyecatch-button {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 8px;
 }
 
 .footer {
