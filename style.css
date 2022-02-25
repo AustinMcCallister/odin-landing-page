@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .header,
 .footer {
   color: #F9FAF8;
