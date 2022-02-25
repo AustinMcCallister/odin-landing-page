@@ -51,7 +51,7 @@ ul {
 .header-text {
   font-size: 24px;
   font-weight: bold;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .header-links ul {
@@ -68,7 +68,8 @@ ul {
 .eyecatch-container {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding: 100px 16px;
   gap: 32px;
@@ -81,13 +82,14 @@ ul {
   align-items: flex-start;
   max-width: 460px;
   padding: 4px;
-  gap: 8px;
+  gap: 16px;
 }
 
 .eyecatch-header {
   color: #F9FAF8;
   font-size: 48px;
   font-weight: 900;
+  line-height: 48px;
 }
 
 .eyecatch-text {
@@ -142,7 +144,7 @@ ul {
 
 .info-image-container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   padding: 48px 0px 80px 0px;
   gap: 48px;
@@ -170,9 +172,48 @@ ul {
   text-align: center;
 }
 
+.section-three {
+  background-color: #E5E7EB;
+}
+
+.section-three-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 830px;
+  gap: 16px;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote-source {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+  padding-right: 32px;
+}
+
 .footer {
   color: #E5E7EB;
   font-size: 18px;
   padding: 32px;
+  width: 100%;
   justify-content: center;
 }
