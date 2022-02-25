@@ -5,8 +5,6 @@
   
 html,
 body {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,6 +22,19 @@ ul {
   list-style: none;
 }
 
+.section-one {
+  background-color: #1F2937;
+  display: flex;
+}
+
+.section-one-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 48px;
+}
+
 .header,
 .footer {
   color: #F9FAF8;
@@ -34,7 +45,7 @@ ul {
 }
 
 .header {
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 16px;
 }
 
@@ -58,10 +69,12 @@ ul {
 .eyecatch-container {
   background-color: #1F2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
-  gap: 48px;
+  padding: 16px;
+  margin-bottom: auto;
+  gap: 32px;
 }
 
 .eyecatch-text-container {
@@ -70,7 +83,7 @@ ul {
   justify-content: space-between;
   align-items: flex-start;
   height: 240px;
-  width: 450px;
+  width: 460px;
   padding: 4px;
   gap: 8px;
 }
