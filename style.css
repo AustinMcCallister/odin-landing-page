@@ -226,11 +226,11 @@ ul {
 .signup-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #3882F6;
   border-radius: 8px;
-  padding: 48px 128px;
+  padding: 48px;
   gap: 16px;
   width: 55%;
 }
